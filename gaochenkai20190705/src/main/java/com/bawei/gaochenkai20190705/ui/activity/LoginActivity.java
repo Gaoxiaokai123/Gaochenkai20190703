@@ -42,7 +42,7 @@ public class LoginActivity extends AppCompatActivity implements IContract.IView 
     @Override
     public void showData() {
         Log.d("aaa" , "aaa");
-        
+
     }
 
     @Override
