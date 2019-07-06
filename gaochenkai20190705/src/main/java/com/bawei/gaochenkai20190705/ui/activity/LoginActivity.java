@@ -2,9 +2,11 @@ package com.bawei.gaochenkai20190705.ui.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import com.bawei.gaochenkai20190705.R;
 import com.bawei.gaochenkai20190705.di.contract.IContract;
@@ -39,8 +41,8 @@ public class LoginActivity extends AppCompatActivity implements IContract.IView 
     //获取账号密码进行回传
     @Override
     public void showData() {
-
-
+        Log.d("aaa" , "aaa");
+        
     }
 
     @Override
